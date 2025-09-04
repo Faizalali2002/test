@@ -9,6 +9,10 @@ app.get("/about", (req, res) => {
   res.status(200).send("About Page");
 });
 
+app.get("/contact", (req, res) => {
+  res.status(200).send("Contact Page");
+});
+
 const PORT = 8000;
 
 app.listen(PORT, () => {
